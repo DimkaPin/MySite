@@ -1,4 +1,4 @@
-var a, b, c, sum, raz, pro, de2, slovo1, slovo2, slovo3, slovo4, sl1, sl2;
+/*var a, b, c, sum, raz, pro, de2, slovo1, slovo2, slovo3, slovo4, sl1, sl2;
 
 a = 100;
 b = 25;
@@ -22,7 +22,40 @@ sl1 = slovo1+ "," +slovo2;
 console.log(sl1);
 sl2 = slovo3+ "," +slovo4;
 console.log(sl2);
+*/
+/*
+var x, total, summ;
+x=0;
+total=0;
 
+do{
+  console.log(total);
+  total=total+x;
+  x=x+2; //x+=2
 
+}
+while (x<=50)
+  console.log(total);
+console.log(x);
+*/
+var myObject = {};
+  myObject.bar1 = "soroka"
+  myObject.bar2 = 567,
+  myObject.bar3 = false,
+  myObject.bar4 = true,
+  myObject.bar5 = "hleb"
+
+for (var b in myObject) {
+  console.log (b);
+  console.log (myObject[b]);
+  console.log ("^------^");
+}
+
+/*
+var mas = new Array("soroka",567,false,true,"hleb");
+for (var t in a) {
+  console.log (t);
+}
+*/
 
 
