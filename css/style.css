@@ -1,4 +1,5 @@
-﻿body{
+﻿
+body{
 background-color: #5A554E;
 background: 
 #red
@@ -38,4 +39,18 @@ text-align: center;
 	border: 4px solid blue;
 
 }
-
+.form-group {
+    position: relative;
+    padding-top: 1.5rem;
+}
+.input1
+{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	float: left;
+	left: 650px;
+top: 146px;
+color:red;
+font-family: 'Oswald', sans-serif;
+}

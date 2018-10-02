@@ -1,3 +1,4 @@
+/*
 var i, lg, fedya, pekka, total;
 lg = 10;
 fedya = 2; 
@@ -31,3 +32,12 @@ switch (lg+fedya){
           break;
               }
               }
+              */
+
+var a = 1;
+ var b = 0;
+while (a<=10) {
+b=b+a
+a++;
+}
+console.log (b);
