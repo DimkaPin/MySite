@@ -51,7 +51,7 @@ hr {
 }
 .block3 {
 	border-bottom: 4px;
-  padding: 22px;
+  padding: 26px;
 width: 96px;
 height: 48px;
 float: left;
@@ -63,7 +63,7 @@ left: 255px;
 }
 .block4 {
 	    border-bottom: 4px;
-    padding: 22px;
+    padding: 26px;
     width: 131px;
     height: 48px;
     float: left;
@@ -74,7 +74,7 @@ left: 255px;
 }
 .block5 {
 	border-bottom: 4px;
-padding: 22px;
+padding: 26px;
 width: 116px;
 height: 48px;
 float: left;
@@ -85,7 +85,7 @@ left: 555px;
 }
 .block6 {
 border-bottom: 4px;
-padding: 15px;
+padding: 11px;
 width: 42px;
 height: 48px;
 float: left;
@@ -96,7 +96,7 @@ right: 435px;
 }
 .block7 {
 border-bottom: 4px;
-padding: 19px;
+padding: 11px;
 width: 43px;
 height: 48px;
 float: left;
@@ -117,3 +117,64 @@ position: absolute;
 right: 9px;
 top: 13px;
 }
+
+.inpp {
+	    width: 200px;
+    height: 56px;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 96px;
+    float: left;
+    color: red;
+}
+
+input[type="text"]
+{
+	background-color: #333333;
+	width: 200px;
+	height: 20px;
+	border-radius: 10px;
+}
+input[type="submit"]
+{
+	background-color: #333333;
+	width: 200px;
+	height: 20px;
+	border-radius: 10px;
+}
+input[type="submit"]:hover
+{
+	background-color: #00FFA9;
+	width: 200px;
+	height: 20px;
+	border-radius: 10px;
+	}
+input[type="reset"]
+{
+	background-color: #333333;
+	width: 200px;
+	height: 20px;
+	border-radius: 10px;
+}
+input[type="reset"]:hover
+{
+	background-color: #00FFA9;
+	width: 200px;
+	height: 20px;
+	border-radius: 10px;
+}
+
+.block8
+{
+width: 72%;
+height: 1000px;
+float: left;
+position: absolute;
+left: 283px;
+bottom: -13px;
+top: 99px;
+right: 0px;
+
+}
+
