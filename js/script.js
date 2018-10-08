@@ -38,6 +38,7 @@ while (x<=50)
   console.log(total);
 console.log(x);
 */
+/*
 var myObject = {};
   myObject.bar1 = "soroka"
   myObject.bar2 = 567,
@@ -50,12 +51,24 @@ for (var b in myObject) {
   console.log (myObject[b]);
   console.log ("^------^");
 }
-
+*/
 /*
 var mas = new Array("soroka",567,false,true,"hleb");
 for (var t in a) {
   console.log (t);
 }
 */
+/*
+var myObject = function(){
+var a=prompt("Твоё имя?")
+var b=prompt("Ваша фамилия?")
+if (a == b) {
+console.log(a+" "+b);
+}
 
-
+else{
+ console.log("Строки не одинаковы");
+}
+}
+myObject();
+*/

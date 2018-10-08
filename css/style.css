@@ -167,14 +167,96 @@ input[type="reset"]:hover
 
 .block8
 {
-width: 72%;
-height: 1000px;
-float: left;
-position: absolute;
-left: 283px;
-bottom: -13px;
-top: 99px;
-right: 0px;
+    width: 72%;
+    height: 1000px;
+    float: left;
+    position: absolute;
+    left: 283px;
+    bottom: -13px;
+    top: 99px;
+    right: 0px;
 
 }
+.transfomacia
+{
+    width: 200px;
+    height: 150px;
+    float: left;
+    position: absolute;
+    left: 39px;
+    bottom: -13px;
+    top: 380px;
+    right: 0px;
+    display: inline-block;
+    margin: 0 40px 2em 0;
+    background: rgba(228, 225, 228, .5);
+}
+
+
+ 
+.transfomacia:hover
+{
+    width: 200px;
+    height: 150px;
+    float: left;
+    position: absolute;
+    left: 39px;
+    bottom: -13px;
+    top: 380px;
+    right: 0px;
+    background-color: red;
+    -o-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+.Left {
+    width: 283px;
+    height: 1000px;
+    float: left;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    top: 99px;
+    right: 0px;
+    background-color: #FFFFFF;
+}
+.Right {
+    width: 283px;
+    height: 1000px;
+    float: left;
+    position: absolute;
+    left: 1653px;
+    bottom: 0px;
+    top: 99px;
+    right: 0px;
+    background-color: #FFFFFF;
+
+
+}
+.top{
+    width: 100%;
+    height: 400px;
+    float: left;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    top: 699px;
+    right: 0px;
+    background-color: #E6E6E6;
+}
+
+.top1 {
+	width: 1200px;
+    height: 400px;
+    position: absolute;
+    left: 365px;
+    bottom: 0px;
+    top: 0px;
+    right: 0px;
+    background-color: #054cdb99;
+
+
 
