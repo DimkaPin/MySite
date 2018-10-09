@@ -221,7 +221,7 @@ input[type="reset"]:hover
     bottom: 0px;
     top: 99px;
     right: 0px;
-    background-color: #FFFFFF;
+    background-color: #808082;
 }
 .Right {
     width: 283px;
@@ -232,7 +232,7 @@ input[type="reset"]:hover
     bottom: 0px;
     top: 99px;
     right: 0px;
-    background-color: #FFFFFF;
+    background-color: #808082;
 
 
 }
@@ -248,7 +248,7 @@ input[type="reset"]:hover
     background-color: #E6E6E6;
 }
 
-.top1 {
+.classname {
 	width: 1200px;
     height: 400px;
     position: absolute;
@@ -258,5 +258,12 @@ input[type="reset"]:hover
     right: 0px;
     background-color: #054cdb99;
 
+
+ 
+.lld 
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    
 
 

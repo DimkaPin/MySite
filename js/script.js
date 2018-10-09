@@ -72,3 +72,43 @@ else{
 }
 myObject();
 */
+  var myExple = function(chpok){
+  var chpok1 = chpok.substring(2,5) // "kem": 2-й, 3-й и 4-й и 5-й символы
+    console.log(chpok1);
+    console.log("^--1--^");
+
+  var chpok2 = chpok.lastIndexOf("n"); // позиция последнего символа n.
+    console.log(chpok2);
+    console.log("^--2--^");
+
+   var chpok3 = chpok.charAt(0); // первый символ
+    console.log(chpok3);
+    console.log("^--3--^");
+
+     var chpok4 = chpok.slice(-3); // последние 3 символа
+       console.log(chpok4);
+       console.log("^--4--^");
+
+      var chpok5 = chpok.indexOf("e", 3); // позиция первого символа "e", следующего за 3 символом в строке
+        console.log(chpok5);
+        console.log("^--5--^");
+
+       var chpok6 = chpok.split(", "); // => ["pokemon, Go"] разбивает на подстроки
+         console.log(chpok6);
+         console.log("^--6--^");
+
+        var chpok7 = chpok.replace("p", "P"); // =>"pokemon, Go": замещает все вхождения подстроки
+          console.log(chpok7);
+          console.log("^--7--^");
+
+         var chpok8 = chpok.toUpperCase(); // => "POKEMON, GO"
+           console.log(chpok8);
+           console.log("^--8--^");
+      return chpok.toUpperCase();
+
+}
+   console.log(myExple("pokemon, Go")); 
+   
+
+
+
